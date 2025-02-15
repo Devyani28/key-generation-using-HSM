@@ -28,7 +28,7 @@ public class KeyEncryptionKeyByRSA {
 
 	public KeyEncryptionKeyByRSA() {
 		try {
-			// KeyPairGenerator use for instance of AES
+			// KeyPairGenerator use for instance of RSA
 			KeyPairGenerator keyPairGenerator = KeyPairGenerator.getInstance("RSA");
 			keyPairGenerator.initialize(2048);
 			KeyPair keyPair = keyPairGenerator.generateKeyPair();
